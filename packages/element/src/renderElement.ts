@@ -1114,10 +1114,18 @@ export function getFreedrawOutlinePoints(element: ExcalidrawFreeDrawElement) {
     ? element.points.map(([x, y], i) => [x, y, element.pressures[i]])
     : [[0, 0, 0.5]];
 
+  let size: number;
+  if (element.strokeWidth === 0.5) {
+    size = 1.5;
+  } else {
+    // existin stroke widths
+    size = element.strokeWidth * 4.25;
+  }
+
   // Consider changing the options for simulated pressure vs real pressure
   const options: StrokeOptions = {
     simulatePressure: element.simulatePressure,
-    size: element.strokeWidth * 4.25,
+    size,
     thinning: 0.6,
     smoothing: 0.5,
     streamline: 0.5,
