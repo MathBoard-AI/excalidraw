@@ -126,7 +126,11 @@ import {
   ArrowheadCrowfootIcon,
   ArrowheadCrowfootOneIcon,
   ArrowheadCrowfootOneOrManyIcon,
-  StrokeWidthFineIcon
+  StrokeWidthFineIcon,
+  StrokeWidthUltraFineIcon,
+  StrokeWidthHeavyIcon,
+  StrokeWidthExtraHeavyIcon,
+  StrokeWidthUltraBoldIcon
 } from "../components/icons";
 
 import { Fonts } from "../fonts";
@@ -540,7 +544,13 @@ export const actionChangeStrokeWidth = register({
           group="stroke-width"
           options={[
             {
-              value: 0.5,
+              value: STROKE_WIDTH.ultraFine,
+              text: t("labels.ultraFine"),
+              icon: StrokeWidthUltraFineIcon,
+              testId: "strokeWidth-ultraFine",
+            },
+            {
+              value: STROKE_WIDTH.fine,
               text: t("labels.fine"),
               icon: StrokeWidthFineIcon,
               testId: "strokeWidth-fine",
@@ -558,10 +568,28 @@ export const actionChangeStrokeWidth = register({
               testId: "strokeWidth-bold",
             },
             {
+              value: STROKE_WIDTH.heavy,
+              text: t("labels.heavy"),
+              icon: StrokeWidthHeavyIcon,
+              testId: "strokeWidth-heavy",
+            },
+            {
               value: STROKE_WIDTH.extraBold,
               text: t("labels.extraBold"),
               icon: StrokeWidthExtraBoldIcon,
               testId: "strokeWidth-extraBold",
+            },
+            {
+              value: STROKE_WIDTH.extraHeavy,
+              text: t("labels.extraHeavy"),
+              icon: StrokeWidthExtraHeavyIcon,
+              testId: "strokeWidth-extraHeavy",
+            },
+            {
+              value: STROKE_WIDTH.ultraBold,
+              text: t("labels.ultraBold"),
+              icon: StrokeWidthUltraBoldIcon,
+              testId: "strokeWidth-ultraBold",
             },
           ]}
           value={getFormValue(

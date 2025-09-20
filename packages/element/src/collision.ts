@@ -16,7 +16,7 @@ import {
 import {
   ellipse,
   ellipseSegmentInterceptPoints,
-} from "@excalidraw/math/ellipse";
+} from "@excalidraw/math";
 
 import type {
   Curve,

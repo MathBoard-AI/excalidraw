@@ -1147,40 +1147,102 @@ export const FillSolidIcon = createIcon(
   { ...modifiedTablerIconProps, fill: "currentColor" },
 );
 
+export const StrokeWidthUltraFineIcon = createIcon(
+  <>
+    <circle
+      cx="10"
+      cy="10"
+      r="0.5625"
+      fill="currentColor"
+    />
+  </>,
+  modifiedTablerIconProps,
+);
+
+export const StrokeWidthFineIcon = createIcon(
+  <>
+    <circle
+      cx="10"
+      cy="10"
+      r="1.125"
+      fill="currentColor"
+    />
+  </>,
+  modifiedTablerIconProps,
+);
+
 export const StrokeWidthBaseIcon = createIcon(
   <>
-    <path
-      d="M4.167 10h11.666"
-      stroke="currentColor"
-      strokeWidth="1.25"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+    <circle
+      cx="10"
+      cy="10"
+      r="2.25"
+      fill="currentColor"
     />
   </>,
   modifiedTablerIconProps,
 );
 
 export const StrokeWidthBoldIcon = createIcon(
-  <path
-    d="M5 10h10"
-    stroke="currentColor"
-    strokeWidth="2.5"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  />,
+  <>
+    <circle
+      cx="10"
+      cy="10"
+      r="3.375"
+      fill="currentColor"
+    />
+  </>,
+  modifiedTablerIconProps,
+);
+
+export const StrokeWidthHeavyIcon = createIcon(
+  <>
+    <circle
+      cx="10"
+      cy="10"
+      r="4.5"
+      fill="currentColor"
+    />
+  </>,
   modifiedTablerIconProps,
 );
 
 export const StrokeWidthExtraBoldIcon = createIcon(
-  <path
-    d="M5 10h10"
-    stroke="currentColor"
-    strokeWidth="3.75"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  />,
+  <>
+    <circle
+      cx="10"
+      cy="10"
+      r="5.625"
+      fill="currentColor"
+    />
+  </>,
   modifiedTablerIconProps,
 );
+
+export const StrokeWidthExtraHeavyIcon = createIcon(
+  <>
+    <circle
+      cx="10"
+      cy="10"
+      r="6.75"
+      fill="currentColor"
+    />
+  </>,
+  modifiedTablerIconProps,
+);
+
+export const StrokeWidthUltraBoldIcon = createIcon(
+  <>
+    <circle
+      cx="10"
+      cy="10"
+      r="8"
+      fill="currentColor"
+    />
+  </>,
+  modifiedTablerIconProps,
+);
+
 
 export const StrokeStyleSolidIcon = React.memo(({ theme }: { theme: Theme }) =>
   createIcon(
@@ -2337,17 +2399,4 @@ export const strokeIcon = createIcon(
     <rect x="6" y="6" width="12" height="12" fill="none" />
   </g>,
   tablerIconProps,
-);
-
-export const StrokeWidthFineIcon = createIcon(
-  <>
-    <path
-      d="M4.167 10h11.666"
-      stroke="currentColor"
-      strokeWidth="0.75"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </>,
-  modifiedTablerIconProps,
 );

@@ -25,7 +25,7 @@ import {
 import { newTextElement } from "@excalidraw/element";
 import { isTextElement, isFrameLikeElement } from "@excalidraw/element";
 
-import { getDefaultFrameName } from "@excalidraw/element/frame";
+import { getDefaultFrameName } from "@excalidraw/element";
 
 import type {
   ExcalidrawFrameLikeElement,

@@ -4,7 +4,7 @@ import {
   maybeBindLinearElement,
   bindOrUnbindLinearElement,
   isBindingEnabled,
-} from "@excalidraw/element/binding";
+} from "@excalidraw/element";
 import {
   isValidPolygon,
   LinearElementEditor,

@@ -4,7 +4,7 @@ import {
   pointRotateRads,
 } from "@excalidraw/math";
 
-import { ellipse, ellipseDistanceFromPoint } from "@excalidraw/math/ellipse";
+import { ellipse, ellipseDistanceFromPoint } from "@excalidraw/math";
 
 import type { GlobalPoint, Radians } from "@excalidraw/math";
 

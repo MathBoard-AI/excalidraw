@@ -16,13 +16,13 @@ const ENV_VARS = {
   },
 };
 
-// excludes all external dependencies and bundles only the source code
+// build config factory
 const getConfig = (outdir) => ({
   outdir,
   bundle: true,
   splitting: true,
   format: "esm",
-  packages: "external",
+  packages: "external", // still allows normal node_modules resolution
   plugins: [sassPlugin()],
   target: "es2020",
   assetNames: "[dir]/[name]",
@@ -30,7 +30,14 @@ const getConfig = (outdir) => ({
   alias: {
     "@excalidraw/utils": path.resolve(__dirname, "../packages/utils/src"),
   },
-  external: ["@excalidraw/common", "@excalidraw/element", "@excalidraw/math"],
+  external: [
+    // keep React external since it’s a peer dependency
+    "react",
+    "react-dom",
+    "@mathboard-ai/common",
+    "@mathboard-ai/element",
+    "@mathboard-ai/math",
+  ],
   loader: {
     ".woff2": "file",
   },
@@ -62,13 +69,13 @@ const createESMRawBuild = async () => {
     entryNames: "[name]",
   };
 
-  // development unminified build with source maps
+  // development build (unminified, with source maps)
   await buildDev({
     ...getConfig("dist/dev"),
     ...chunksConfig,
   });
 
-  // production minified buld without sourcemaps
+  // production build (minified, no source maps)
   await buildProd({
     ...getConfig("dist/prod"),
     ...chunksConfig,

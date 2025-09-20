@@ -1,6 +1,6 @@
 {
-  "name": "@excalidraw/math",
-  "version": "0.18.0",
+  "name": "@mathboard-ai/math",
+  "version": "0.18.0-mathboard0.0.9",
   "type": "module",
   "types": "./dist/types/math/src/index.d.ts",
   "main": "./dist/prod/index.js",
@@ -22,12 +22,13 @@
   "files": [
     "dist/*"
   ],
-  "description": "Excalidraw math functions",
+  "description": "Excalidraw math functions for MathBoard",
   "publishConfig": {
     "access": "public"
   },
   "license": "MIT",
   "keywords": [
+    "mathboard",
     "excalidraw",
     "excalidraw-math",
     "math",
@@ -54,13 +55,13 @@
       "last 1 safari version"
     ]
   },
-  "bugs": "https://github.com/excalidraw/excalidraw/issues",
-  "repository": "https://github.com/excalidraw/excalidraw",
+  "bugs": "https://github.com/MathBoard-AI/excalidraw/issues",
+  "repository": "https://github.com/MathBoard-AI/excalidraw",
   "scripts": {
     "gen:types": "rimraf types && tsc",
     "build:esm": "rimraf dist && node ../../scripts/buildBase.js && yarn gen:types"
   },
   "dependencies": {
-    "@excalidraw/common": "0.18.0"
+    "@mathboard-ai/common": "0.18.0-mathboard0.0.9"
   }
 }
