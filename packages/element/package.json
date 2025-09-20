@@ -1,6 +1,6 @@
 {
   "name": "@mathboard-ai/element",
-  "version": "0.18.0-mathboard0.0.10",
+  "version": "0.18.0-mathboard0.0.11",
   "type": "module",
   "types": "./dist/types/element/src/index.d.ts",
   "main": "./dist/prod/index.js",
@@ -58,7 +58,7 @@
     "build:esm": "rimraf dist && node ../../scripts/buildBase.js && yarn gen:types"
   },
   "dependencies": {
-    "@mathboard-ai/common": "0.18.0-mathboard0.0.10",
-    "@mathboard-ai/math": "0.18.0-mathboard0.0.10"
+    "@mathboard-ai/common": "0.18.0-mathboard0.0.11",
+    "@mathboard-ai/math": "0.18.0-mathboard0.0.11"
   }
 }

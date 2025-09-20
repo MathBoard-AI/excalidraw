@@ -3,6 +3,8 @@
 This is MathBoard’s maintained fork of [Excalidraw](https://github.com/excalidraw/excalidraw).
 We will roll our own packages under the `@mathboard-ai/*` namespace to support custom needs while still keeping up to date with upstream bug fixes.
 
+⚠️ **Important Note:** Always bump versions across **all related packages** (`@mathboard-ai/common`, `@mathboard-ai/element`, `@mathboard-ai/math`, and `@mathboard-ai/excalidraw`) even if you only change one. Keeping them in sync avoids dependency mismatches.
+
 ---
 
 ## 🚀 Development & Packaging
