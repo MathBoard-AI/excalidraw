@@ -1,3 +1,75 @@
+# MathBoard Excalidraw Fork
+
+This is MathBoard’s maintained fork of [Excalidraw](https://github.com/excalidraw/excalidraw).
+We will roll our own packages under the `@mathboard-ai/*` namespace to support custom needs while still keeping up to date with upstream bug fixes.
+
+---
+
+## 🚀 Development & Packaging
+
+### 1. Build all packages
+
+From the monorepo root:
+
+```bash
+yarn rm:build && yarn build:packages
+```
+
+This builds:
+
+* `@mathboard-ai/common`
+* `@mathboard-ai/element`
+* `@mathboard-ai/math`
+* `@mathboard-ai/excalidraw`
+
+### 2. Publish to npm
+
+Each package must be published individually after bumping its version in `package.json`.
+Use the following one-liners from the root:
+
+```bash
+cd packages/common && npm publish --access public && cd ../..
+cd packages/element && npm publish --access public && cd ../..
+cd packages/math && npm publish --access public && cd ../..
+cd packages/excalidraw && npm publish --access public && cd ../..
+```
+
+> ⚠️ Always make sure you are logged in with the correct npm account before publishing (`npm login`).
+
+---
+
+## 🔄 Keeping in Sync with Upstream Excalidraw
+
+Since this fork is derived from the main [Excalidraw repo](https://github.com/excalidraw/excalidraw):
+
+1. **Regularly merge upstream**:
+
+   ```bash
+   git remote add upstream https://github.com/excalidraw/excalidraw.git
+   git fetch upstream
+   git merge upstream/master
+   ```
+2. Resolve conflicts while **keeping MathBoard-specific changes** (mainly package renames, versions, and distribution adjustments).
+3. Rebuild & republish packages as described above.
+
+---
+---
+---
+---
+---
+---
+---
+# Original README Continues Below
+---
+---
+---
+---
+---
+---
+---
+
+# About Excalidraw
+
 <a href="https://excalidraw.com/" target="_blank" rel="noopener">
   <picture>
     <source media="(prefers-color-scheme: dark)" alt="Excalidraw" srcset="https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github/excalidraw_github_cover_2_dark.png" />
