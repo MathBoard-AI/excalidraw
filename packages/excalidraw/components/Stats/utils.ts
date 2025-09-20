@@ -1,27 +1,27 @@
-import { pointFrom, pointRotateRads } from "@excalidraw/math";
+import { pointFrom, pointRotateRads } from "@mathboard-ai/math";
 
-import { getBoundTextElement } from "@excalidraw/element";
-import { isFrameLikeElement } from "@excalidraw/element";
+import { getBoundTextElement } from "@mathboard-ai/element";
+import { isFrameLikeElement } from "@mathboard-ai/element";
 
 import {
   getSelectedGroupIds,
   getElementsInGroup,
   isInGroup,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import { getFrameChildren } from "@excalidraw/element";
+import { getFrameChildren } from "@mathboard-ai/element";
 
-import { updateBindings } from "@excalidraw/element";
+import { updateBindings } from "@mathboard-ai/element";
 
-import type { Radians } from "@excalidraw/math";
+import type { Radians } from "@mathboard-ai/math";
 
 import type {
   ElementsMap,
   ExcalidrawElement,
   NonDeletedExcalidrawElement,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
-import type { Scene } from "@excalidraw/element";
+import type { Scene } from "@mathboard-ai/element";
 
 import type { AppState } from "../../types";
 

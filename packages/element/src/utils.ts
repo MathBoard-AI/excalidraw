@@ -3,7 +3,7 @@ import {
   DEFAULT_PROPORTIONAL_RADIUS,
   LINE_CONFIRM_THRESHOLD,
   ROUNDNESS,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
 import {
   curve,
@@ -15,11 +15,11 @@ import {
   pointFromArray,
   rectangle,
   type GlobalPoint,
-} from "@excalidraw/math";
+} from "@mathboard-ai/math";
 
-import type { Curve, LineSegment, LocalPoint } from "@excalidraw/math";
+import type { Curve, LineSegment, LocalPoint } from "@mathboard-ai/math";
 
-import type { NormalizedZoomValue, Zoom } from "@excalidraw/excalidraw/types";
+import type { NormalizedZoomValue, Zoom } from "@mathboard-ai/excalidraw/types";
 
 import { getDiamondPoints } from "./bounds";
 

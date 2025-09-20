@@ -6,24 +6,24 @@ import {
   isMemberOf,
   isPromiseLike,
   EVENT,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
-import { mutateElement } from "@excalidraw/element";
-import { deepCopyElement } from "@excalidraw/element";
+import { mutateElement } from "@mathboard-ai/element";
+import { deepCopyElement } from "@mathboard-ai/element";
 import {
   isFrameLikeElement,
   isInitializedImageElement,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import { getContainingFrame } from "@excalidraw/element";
+import { getContainingFrame } from "@mathboard-ai/element";
 
-import type { ValueOf } from "@excalidraw/common/utility-types";
+import type { ValueOf } from "@mathboard-ai/common/utility-types";
 
-import type { IMAGE_MIME_TYPES, STRING_MIME_TYPES } from "@excalidraw/common";
+import type { IMAGE_MIME_TYPES, STRING_MIME_TYPES } from "@mathboard-ai/common";
 import type {
   ExcalidrawElement,
   NonDeletedExcalidrawElement,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
 import { ExcalidrawError } from "./errors";
 import {

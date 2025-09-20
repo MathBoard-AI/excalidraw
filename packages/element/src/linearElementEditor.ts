@@ -9,9 +9,9 @@ import {
   vectorFromPoint,
   curveLength,
   curvePointAtLength,
-} from "@excalidraw/math";
+} from "@mathboard-ai/math";
 
-import { getCurvePathOps } from "@excalidraw/utils/shape";
+import { getCurvePathOps } from "@mathboard-ai/utils/shape";
 
 import {
   DRAGGING_THRESHOLD,
@@ -21,15 +21,15 @@ import {
   invariant,
   tupleToCoors,
   viewportCoordsToSceneCoords,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
 import {
   deconstructLinearOrFreeDrawElement,
   isPathALoop,
   type Store,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import type { Radians } from "@excalidraw/math";
+import type { Radians } from "@mathboard-ai/math";
 
 import type {
   AppState,
@@ -38,9 +38,9 @@ import type {
   AppClassProperties,
   NullableGridSize,
   Zoom,
-} from "@excalidraw/excalidraw/types";
+} from "@mathboard-ai/excalidraw/types";
 
-import type { Mutable } from "@excalidraw/common/utility-types";
+import type { Mutable } from "@mathboard-ai/common/utility-types";
 
 import {
   bindOrUnbindLinearElement,

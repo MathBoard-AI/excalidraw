@@ -2,9 +2,9 @@
  * Create and link between shapes.
  */
 
-import { ELEMENT_LINK_KEY, normalizeLink } from "@excalidraw/common";
+import { ELEMENT_LINK_KEY, normalizeLink } from "@mathboard-ai/common";
 
-import type { AppProps, AppState } from "@excalidraw/excalidraw/types";
+import type { AppProps, AppState } from "@mathboard-ai/excalidraw/types";
 
 import { elementsAreInSameGroup } from "./groups";
 

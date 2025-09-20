@@ -1,10 +1,10 @@
-import { average } from "@excalidraw/math";
+import { average } from "@mathboard-ai/math";
 
 import type {
   ExcalidrawBindableElement,
   FontFamilyValues,
   FontString,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
 import type {
   ActiveTool,
@@ -12,7 +12,7 @@ import type {
   ToolType,
   UnsubscribeCallback,
   Zoom,
-} from "@excalidraw/excalidraw/types";
+} from "@mathboard-ai/excalidraw/types";
 
 import { COLOR_PALETTE } from "./colors";
 import {

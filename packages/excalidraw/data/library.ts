@@ -15,15 +15,15 @@ import {
   toValidURL,
   Queue,
   Emitter,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
-import { hashElementsVersion, hashString } from "@excalidraw/element";
+import { hashElementsVersion, hashString } from "@mathboard-ai/element";
 
-import { getCommonBoundingBox } from "@excalidraw/element";
+import { getCommonBoundingBox } from "@mathboard-ai/element";
 
-import type { ExcalidrawElement } from "@excalidraw/element/types";
+import type { ExcalidrawElement } from "@mathboard-ai/element/types";
 
-import type { MaybePromise } from "@excalidraw/common/utility-types";
+import type { MaybePromise } from "@mathboard-ai/common/utility-types";
 
 import { atom, editorJotaiStore } from "../editor-jotai";
 

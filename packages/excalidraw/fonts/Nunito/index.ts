@@ -1,4 +1,4 @@
-import { GOOGLE_FONTS_RANGES } from "@excalidraw/common";
+import { GOOGLE_FONTS_RANGES } from "@mathboard-ai/common";
 
 import { type ExcalidrawFontFaceDescriptor } from "../Fonts";
 

@@ -6,7 +6,7 @@ import {
   isShallowEqual,
   isTestEnv,
   randomInteger,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
 import type {
   ExcalidrawElement,
@@ -17,21 +17,21 @@ import type {
   Ordered,
   OrderedExcalidrawElement,
   SceneElementsMap,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
 import type {
   DTO,
   Mutable,
   SubtypeOf,
   ValueOf,
-} from "@excalidraw/common/utility-types";
+} from "@mathboard-ai/common/utility-types";
 
 import type {
   AppState,
   ObservedAppState,
   ObservedElementsAppState,
   ObservedStandaloneAppState,
-} from "@excalidraw/excalidraw/types";
+} from "@mathboard-ai/excalidraw/types";
 
 import { getObservedAppState } from "./store";
 

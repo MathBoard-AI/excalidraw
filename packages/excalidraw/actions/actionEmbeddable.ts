@@ -1,6 +1,6 @@
-import { updateActiveTool } from "@excalidraw/common";
+import { updateActiveTool } from "@mathboard-ai/common";
 
-import { CaptureUpdateAction } from "@excalidraw/element";
+import { CaptureUpdateAction } from "@mathboard-ai/element";
 
 import { setCursorForShape } from "../cursor";
 

@@ -1,14 +1,14 @@
-import { KEYS, arrayToMap } from "@excalidraw/common";
+import { KEYS, arrayToMap } from "@mathboard-ai/common";
 
-import { pointFrom } from "@excalidraw/math";
+import { pointFrom } from "@mathboard-ai/math";
 
-import { actionWrapTextInContainer } from "@excalidraw/excalidraw/actions/actionBoundText";
+import { actionWrapTextInContainer } from "@mathboard-ai/excalidraw/actions/actionBoundText";
 
-import { Excalidraw, isLinearElement } from "@excalidraw/excalidraw";
+import { Excalidraw, isLinearElement } from "@mathboard-ai/excalidraw";
 
-import { API } from "@excalidraw/excalidraw/tests/helpers/api";
-import { UI, Pointer, Keyboard } from "@excalidraw/excalidraw/tests/helpers/ui";
-import { fireEvent, render } from "@excalidraw/excalidraw/tests/test-utils";
+import { API } from "@mathboard-ai/excalidraw/tests/helpers/api";
+import { UI, Pointer, Keyboard } from "@mathboard-ai/excalidraw/tests/helpers/ui";
+import { fireEvent, render } from "@mathboard-ai/excalidraw/tests/test-utils";
 
 import { getTransformHandles } from "../src/transformHandles";
 import {

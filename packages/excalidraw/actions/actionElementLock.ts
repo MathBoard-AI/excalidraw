@@ -1,14 +1,14 @@
-import { KEYS, arrayToMap, randomId } from "@excalidraw/common";
+import { KEYS, arrayToMap, randomId } from "@mathboard-ai/common";
 
 import {
   elementsAreInSameGroup,
   newElementWith,
   selectGroupsFromGivenElements,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import { CaptureUpdateAction } from "@excalidraw/element";
+import { CaptureUpdateAction } from "@mathboard-ai/element";
 
-import type { ExcalidrawElement } from "@excalidraw/element/types";
+import type { ExcalidrawElement } from "@mathboard-ai/element/types";
 
 import { LockedIcon, UnlockedIcon } from "../components/icons";
 

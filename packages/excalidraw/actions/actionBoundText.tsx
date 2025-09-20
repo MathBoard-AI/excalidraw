@@ -5,19 +5,19 @@ import {
   VERTICAL_ALIGN,
   arrayToMap,
   getFontString,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 import {
   getOriginalContainerHeightFromCache,
   resetOriginalContainerCache,
   updateOriginalContainerCache,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
 import {
   computeBoundTextPosition,
   computeContainerDimensionForBoundText,
   getBoundTextElement,
   redrawTextBoundingBox,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
 import {
   hasBoundTextElement,
@@ -25,26 +25,26 @@ import {
   isTextBindableContainer,
   isTextElement,
   isUsingAdaptiveRadius,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import { measureText } from "@excalidraw/element";
+import { measureText } from "@mathboard-ai/element";
 
-import { syncMovedIndices } from "@excalidraw/element";
+import { syncMovedIndices } from "@mathboard-ai/element";
 
-import { newElement } from "@excalidraw/element";
+import { newElement } from "@mathboard-ai/element";
 
-import { CaptureUpdateAction } from "@excalidraw/element";
+import { CaptureUpdateAction } from "@mathboard-ai/element";
 
 import type {
   ExcalidrawElement,
   ExcalidrawLinearElement,
   ExcalidrawTextContainer,
   ExcalidrawTextElement,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
-import type { Mutable } from "@excalidraw/common/utility-types";
+import type { Mutable } from "@mathboard-ai/common/utility-types";
 
-import type { Radians } from "@excalidraw/math";
+import type { Radians } from "@mathboard-ai/math";
 
 import { register } from "./register";
 

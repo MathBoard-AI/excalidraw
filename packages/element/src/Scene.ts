@@ -7,20 +7,20 @@ import {
   isDevEnv,
   isTestEnv,
   toArray,
-} from "@excalidraw/common";
-import { isNonDeletedElement } from "@excalidraw/element";
-import { isFrameLikeElement } from "@excalidraw/element";
-import { getElementsInGroup } from "@excalidraw/element";
+} from "@mathboard-ai/common";
+import { isNonDeletedElement } from "@mathboard-ai/element";
+import { isFrameLikeElement } from "@mathboard-ai/element";
+import { getElementsInGroup } from "@mathboard-ai/element";
 
 import {
   syncInvalidIndices,
   syncMovedIndices,
   validateFractionalIndices,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import { getSelectedElements } from "@excalidraw/element";
+import { getSelectedElements } from "@mathboard-ai/element";
 
-import { mutateElement, type ElementUpdate } from "@excalidraw/element";
+import { mutateElement, type ElementUpdate } from "@mathboard-ai/element";
 
 import type {
   ExcalidrawElement,
@@ -32,13 +32,13 @@ import type {
   NonDeletedSceneElementsMap,
   OrderedExcalidrawElement,
   Ordered,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
 import type {
   Assert,
   Mutable,
   SameType,
-} from "@excalidraw/common/utility-types";
+} from "@mathboard-ai/common/utility-types";
 
 import type { AppState } from "../../excalidraw/types";
 

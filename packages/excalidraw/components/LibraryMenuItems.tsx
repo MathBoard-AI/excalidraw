@@ -6,9 +6,9 @@ import React, {
   useState,
 } from "react";
 
-import { MIME_TYPES, arrayToMap } from "@excalidraw/common";
+import { MIME_TYPES, arrayToMap } from "@mathboard-ai/common";
 
-import { duplicateElements } from "@excalidraw/element";
+import { duplicateElements } from "@mathboard-ai/element";
 
 import { serializeLibraryAsJSON } from "../data/json";
 import { useLibraryCache } from "../hooks/useLibraryItemSvg";

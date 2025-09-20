@@ -1,9 +1,9 @@
 import React from "react";
 import { vi } from "vitest";
 
-import { KEYS, reseed } from "@excalidraw/common";
+import { KEYS, reseed } from "@mathboard-ai/common";
 
-import type { ExcalidrawLinearElement } from "@excalidraw/element/types";
+import type { ExcalidrawLinearElement } from "@mathboard-ai/element/types";
 
 import { Excalidraw } from "../index";
 

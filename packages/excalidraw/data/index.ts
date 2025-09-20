@@ -6,19 +6,19 @@ import {
   MIME_TYPES,
   cloneJSON,
   SVG_DOCUMENT_PREAMBLE,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
-import { getNonDeletedElements } from "@excalidraw/element";
+import { getNonDeletedElements } from "@mathboard-ai/element";
 
-import { isFrameLikeElement } from "@excalidraw/element";
+import { isFrameLikeElement } from "@mathboard-ai/element";
 
-import { getElementsOverlappingFrame } from "@excalidraw/element";
+import { getElementsOverlappingFrame } from "@mathboard-ai/element";
 
 import type {
   ExcalidrawElement,
   ExcalidrawFrameLikeElement,
   NonDeletedExcalidrawElement,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
 import {
   copyBlobToClipboardAsPng,

@@ -1,15 +1,15 @@
 import {
   getBoundTextElement,
   redrawTextBoundingBox,
-} from "@excalidraw/element";
-import { hasBoundTextElement, isTextElement } from "@excalidraw/element";
+} from "@mathboard-ai/element";
+import { hasBoundTextElement, isTextElement } from "@mathboard-ai/element";
 
 import type {
   ExcalidrawElement,
   ExcalidrawTextElement,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
-import type { Scene } from "@excalidraw/element";
+import type { Scene } from "@mathboard-ai/element";
 
 import { fontSizeIcon } from "../icons";
 

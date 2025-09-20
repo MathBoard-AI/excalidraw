@@ -5,20 +5,20 @@ import {
   pointRotateRads,
   type Radians,
   type LocalPoint,
-} from "@excalidraw/math";
+} from "@mathboard-ai/math";
 
 import {
   MIN_FONT_SIZE,
   SHIFT_LOCKING_ANGLE,
   rescalePoints,
   getFontString,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
-import type { GlobalPoint } from "@excalidraw/math";
+import type { GlobalPoint } from "@mathboard-ai/math";
 
-import type { PointerDownState } from "@excalidraw/excalidraw/types";
+import type { PointerDownState } from "@mathboard-ai/excalidraw/types";
 
-import type { Mutable } from "@excalidraw/common/utility-types";
+import type { Mutable } from "@mathboard-ai/common/utility-types";
 
 import { getArrowLocalFixedPoints, updateBoundElements } from "./binding";
 import {

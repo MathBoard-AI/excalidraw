@@ -2,28 +2,28 @@ import {
   type GlobalPoint,
   type LineSegment,
   pointFrom,
-} from "@excalidraw/math";
+} from "@mathboard-ai/math";
 
-import { getElementLineSegments } from "@excalidraw/element";
-import { LinearElementEditor } from "@excalidraw/element";
+import { getElementLineSegments } from "@mathboard-ai/element";
+import { LinearElementEditor } from "@mathboard-ai/element";
 import {
   isFrameLikeElement,
   isLinearElement,
   isTextElement,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import { getFrameChildren } from "@excalidraw/element";
-import { selectGroupsForSelectedElements } from "@excalidraw/element";
+import { getFrameChildren } from "@mathboard-ai/element";
+import { selectGroupsForSelectedElements } from "@mathboard-ai/element";
 
-import { getContainerElement } from "@excalidraw/element";
+import { getContainerElement } from "@mathboard-ai/element";
 
-import { arrayToMap, easeOut, isShallowEqual } from "@excalidraw/common";
+import { arrayToMap, easeOut, isShallowEqual } from "@mathboard-ai/common";
 
 import type {
   ExcalidrawElement,
   ExcalidrawLinearElement,
   NonDeleted,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
 import { type AnimationFrameHandler } from "../animation-frame-handler";
 

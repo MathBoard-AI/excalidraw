@@ -5,32 +5,32 @@ import {
   rangeIntersection,
   rangesOverlap,
   type GlobalPoint,
-} from "@excalidraw/math";
+} from "@mathboard-ai/math";
 
-import { TOOL_TYPE, KEYS } from "@excalidraw/common";
+import { TOOL_TYPE, KEYS } from "@mathboard-ai/common";
 import {
   getCommonBounds,
   getDraggedElementsBounds,
   getElementAbsoluteCoords,
-} from "@excalidraw/element";
-import { isBoundToContainer } from "@excalidraw/element";
+} from "@mathboard-ai/element";
+import { isBoundToContainer } from "@mathboard-ai/element";
 
-import { getMaximumGroups } from "@excalidraw/element";
+import { getMaximumGroups } from "@mathboard-ai/element";
 
 import {
   getSelectedElements,
   getVisibleAndNonSelectedElements,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import type { InclusiveRange } from "@excalidraw/math";
+import type { InclusiveRange } from "@mathboard-ai/math";
 
-import type { Bounds } from "@excalidraw/element";
-import type { MaybeTransformHandleType } from "@excalidraw/element";
+import type { Bounds } from "@mathboard-ai/element";
+import type { MaybeTransformHandleType } from "@mathboard-ai/element";
 import type {
   ElementsMap,
   ExcalidrawElement,
   NonDeletedExcalidrawElement,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
 import type {
   AppClassProperties,

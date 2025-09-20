@@ -1,14 +1,14 @@
-import { getVisibleElements } from "@excalidraw/element";
+import { getVisibleElements } from "@mathboard-ai/element";
 import {
   sceneCoordsToViewportCoords,
   viewportCoordsToSceneCoords,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
-import { getClosestElementBounds } from "@excalidraw/element";
+import { getClosestElementBounds } from "@mathboard-ai/element";
 
-import { getCommonBounds } from "@excalidraw/element";
+import { getCommonBounds } from "@mathboard-ai/element";
 
-import type { ExcalidrawElement } from "@excalidraw/element/types";
+import type { ExcalidrawElement } from "@mathboard-ai/element/types";
 
 import type { AppState, Offsets, PointerCoords, Zoom } from "../types";
 

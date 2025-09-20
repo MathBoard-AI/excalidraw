@@ -3,9 +3,9 @@ import { type ReactNode, useEffect, useMemo, useRef, useState } from "react";
 import {
   getLinearElementSubType,
   updateElbowArrowPoints,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import { pointFrom, pointRotateRads, type LocalPoint } from "@excalidraw/math";
+import { pointFrom, pointRotateRads, type LocalPoint } from "@mathboard-ai/math";
 
 import {
   hasBoundTextElement,
@@ -14,21 +14,21 @@ import {
   isElbowArrow,
   isLinearElement,
   isUsingAdaptiveRadius,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
 import {
   getCommonBoundingBox,
   getElementAbsoluteCoords,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
 import {
   getBoundTextElement,
   getBoundTextMaxHeight,
   getBoundTextMaxWidth,
   redrawTextBoundingBox,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import { wrapText } from "@excalidraw/element";
+import { wrapText } from "@mathboard-ai/element";
 
 import {
   assertNever,
@@ -38,21 +38,21 @@ import {
   mapFind,
   reduceToCommonValue,
   updateActiveTool,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
-import { measureText } from "@excalidraw/element";
+import { measureText } from "@mathboard-ai/element";
 
-import { LinearElementEditor } from "@excalidraw/element";
+import { LinearElementEditor } from "@mathboard-ai/element";
 
 import {
   newArrowElement,
   newElement,
   newLinearElement,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import { ShapeCache } from "@excalidraw/element";
+import { ShapeCache } from "@mathboard-ai/element";
 
-import { updateBindings } from "@excalidraw/element";
+import { updateBindings } from "@mathboard-ai/element";
 
 import type {
   ConvertibleGenericTypes,
@@ -67,9 +67,9 @@ import type {
   ExcalidrawTextContainer,
   ExcalidrawTextElementWithContainer,
   FixedSegment,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
-import type { Scene } from "@excalidraw/element";
+import type { Scene } from "@mathboard-ai/element";
 
 import {
   bumpVersion,

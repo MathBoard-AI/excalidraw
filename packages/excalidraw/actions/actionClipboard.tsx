@@ -1,9 +1,9 @@
-import { isTextElement } from "@excalidraw/element";
-import { getTextFromElements } from "@excalidraw/element";
+import { isTextElement } from "@mathboard-ai/element";
+import { getTextFromElements } from "@mathboard-ai/element";
 
-import { CODES, KEYS, isFirefox } from "@excalidraw/common";
+import { CODES, KEYS, isFirefox } from "@mathboard-ai/common";
 
-import { CaptureUpdateAction } from "@excalidraw/element";
+import { CaptureUpdateAction } from "@mathboard-ai/element";
 
 import {
   copyTextToSystemClipboard,

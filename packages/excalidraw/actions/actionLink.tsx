@@ -1,8 +1,8 @@
-import { isEmbeddableElement } from "@excalidraw/element";
+import { isEmbeddableElement } from "@mathboard-ai/element";
 
-import { KEYS, getShortcutKey } from "@excalidraw/common";
+import { KEYS, getShortcutKey } from "@mathboard-ai/common";
 
-import { CaptureUpdateAction } from "@excalidraw/element";
+import { CaptureUpdateAction } from "@mathboard-ai/element";
 
 import { ToolButton } from "../components/ToolButton";
 import { getContextMenuLabel } from "../components/hyperlink/Hyperlink";

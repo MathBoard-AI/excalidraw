@@ -1,24 +1,24 @@
-import { MIME_TYPES } from "@excalidraw/common";
-import { getDefaultAppState } from "@excalidraw/excalidraw/appState";
+import { MIME_TYPES } from "@mathboard-ai/common";
+import { getDefaultAppState } from "@mathboard-ai/excalidraw/appState";
 import {
   copyBlobToClipboardAsPng,
   copyTextToSystemClipboard,
   copyToClipboard,
-} from "@excalidraw/excalidraw/clipboard";
-import { encodePngMetadata } from "@excalidraw/excalidraw/data/image";
-import { serializeAsJSON } from "@excalidraw/excalidraw/data/json";
-import { restore } from "@excalidraw/excalidraw/data/restore";
+} from "@mathboard-ai/excalidraw/clipboard";
+import { encodePngMetadata } from "@mathboard-ai/excalidraw/data/image";
+import { serializeAsJSON } from "@mathboard-ai/excalidraw/data/json";
+import { restore } from "@mathboard-ai/excalidraw/data/restore";
 import {
   exportToCanvas as _exportToCanvas,
   exportToSvg as _exportToSvg,
-} from "@excalidraw/excalidraw/scene/export";
+} from "@mathboard-ai/excalidraw/scene/export";
 
 import type {
   ExcalidrawElement,
   ExcalidrawFrameLikeElement,
   NonDeleted,
-} from "@excalidraw/element/types";
-import type { AppState, BinaryFiles } from "@excalidraw/excalidraw/types";
+} from "@mathboard-ai/element/types";
+import type { AppState, BinaryFiles } from "@mathboard-ai/excalidraw/types";
 
 export { MIME_TYPES };
 

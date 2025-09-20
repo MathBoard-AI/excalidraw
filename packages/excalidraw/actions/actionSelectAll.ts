@@ -1,14 +1,14 @@
-import { getNonDeletedElements } from "@excalidraw/element";
-import { LinearElementEditor } from "@excalidraw/element";
-import { isLinearElement, isTextElement } from "@excalidraw/element";
+import { getNonDeletedElements } from "@mathboard-ai/element";
+import { LinearElementEditor } from "@mathboard-ai/element";
+import { isLinearElement, isTextElement } from "@mathboard-ai/element";
 
-import { arrayToMap, KEYS } from "@excalidraw/common";
+import { arrayToMap, KEYS } from "@mathboard-ai/common";
 
-import { selectGroupsForSelectedElements } from "@excalidraw/element";
+import { selectGroupsForSelectedElements } from "@mathboard-ai/element";
 
-import { CaptureUpdateAction } from "@excalidraw/element";
+import { CaptureUpdateAction } from "@mathboard-ai/element";
 
-import type { ExcalidrawElement } from "@excalidraw/element/types";
+import type { ExcalidrawElement } from "@mathboard-ai/element/types";
 
 import { selectAllIcon } from "../components/icons";
 

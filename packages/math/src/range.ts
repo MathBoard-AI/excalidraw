@@ -1,4 +1,4 @@
-import { toBrandedType } from "@excalidraw/common";
+import { toBrandedType } from "@mathboard-ai/common";
 
 import type { InclusiveRange } from "./types";
 

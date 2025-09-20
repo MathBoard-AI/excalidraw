@@ -1,23 +1,23 @@
 /* eslint-disable no-lone-blocks */
 import { generateKeyBetween } from "fractional-indexing";
 
-import { arrayToMap } from "@excalidraw/common";
+import { arrayToMap } from "@mathboard-ai/common";
 
 import {
   syncInvalidIndices,
   syncMovedIndices,
   validateFractionalIndices,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import { deepCopyElement } from "@excalidraw/element";
+import { deepCopyElement } from "@mathboard-ai/element";
 
-import { API } from "@excalidraw/excalidraw/tests/helpers/api";
+import { API } from "@mathboard-ai/excalidraw/tests/helpers/api";
 
 import type {
   ElementsMap,
   ExcalidrawElement,
   FractionalIndex,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
 import { InvalidFractionalIndexError } from "../src/fractionalIndex";
 

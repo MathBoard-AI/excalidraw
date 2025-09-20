@@ -1,10 +1,10 @@
-import { isWindows, KEYS, matchKey, arrayToMap } from "@excalidraw/common";
+import { isWindows, KEYS, matchKey, arrayToMap } from "@mathboard-ai/common";
 
-import { CaptureUpdateAction } from "@excalidraw/element";
+import { CaptureUpdateAction } from "@mathboard-ai/element";
 
-import { orderByFractionalIndex } from "@excalidraw/element";
+import { orderByFractionalIndex } from "@mathboard-ai/element";
 
-import type { SceneElementsMap } from "@excalidraw/element/types";
+import type { SceneElementsMap } from "@mathboard-ai/element/types";
 
 import { ToolButton } from "../components/ToolButton";
 import { UndoIcon, RedoIcon } from "../components/icons";

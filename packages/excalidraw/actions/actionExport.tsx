@@ -3,13 +3,13 @@ import {
   DEFAULT_EXPORT_PADDING,
   EXPORT_SCALES,
   THEME,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
-import { getNonDeletedElements } from "@excalidraw/element";
+import { getNonDeletedElements } from "@mathboard-ai/element";
 
-import { CaptureUpdateAction } from "@excalidraw/element";
+import { CaptureUpdateAction } from "@mathboard-ai/element";
 
-import type { Theme } from "@excalidraw/element/types";
+import type { Theme } from "@mathboard-ai/element/types";
 
 import { useDevice } from "../components/App";
 import { CheckboxItem } from "../components/CheckboxItem";

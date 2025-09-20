@@ -1,20 +1,20 @@
-import { getNonDeletedElements } from "@excalidraw/element";
+import { getNonDeletedElements } from "@mathboard-ai/element";
 
-import { isFrameLikeElement } from "@excalidraw/element";
+import { isFrameLikeElement } from "@mathboard-ai/element";
 
-import { updateFrameMembershipOfSelectedElements } from "@excalidraw/element";
+import { updateFrameMembershipOfSelectedElements } from "@mathboard-ai/element";
 
-import { KEYS, arrayToMap, getShortcutKey } from "@excalidraw/common";
+import { KEYS, arrayToMap, getShortcutKey } from "@mathboard-ai/common";
 
-import { alignElements } from "@excalidraw/element";
+import { alignElements } from "@mathboard-ai/element";
 
-import { CaptureUpdateAction } from "@excalidraw/element";
+import { CaptureUpdateAction } from "@mathboard-ai/element";
 
-import { getSelectedElementsByGroup } from "@excalidraw/element";
+import { getSelectedElementsByGroup } from "@mathboard-ai/element";
 
-import type { ExcalidrawElement } from "@excalidraw/element/types";
+import type { ExcalidrawElement } from "@mathboard-ai/element/types";
 
-import type { Alignment } from "@excalidraw/element";
+import type { Alignment } from "@mathboard-ai/element";
 
 import { ToolButton } from "../components/ToolButton";
 import {

@@ -1,12 +1,12 @@
-import { ARROW_TYPE } from "@excalidraw/common";
-import { pointFrom } from "@excalidraw/math";
-import { Excalidraw } from "@excalidraw/excalidraw";
+import { ARROW_TYPE } from "@mathboard-ai/common";
+import { pointFrom } from "@mathboard-ai/math";
+import { Excalidraw } from "@mathboard-ai/excalidraw";
 
-import { actionSelectAll } from "@excalidraw/excalidraw/actions";
-import { actionDuplicateSelection } from "@excalidraw/excalidraw/actions/actionDuplicateSelection";
+import { actionSelectAll } from "@mathboard-ai/excalidraw/actions";
+import { actionDuplicateSelection } from "@mathboard-ai/excalidraw/actions/actionDuplicateSelection";
 
-import { API } from "@excalidraw/excalidraw/tests/helpers/api";
-import { Pointer, UI } from "@excalidraw/excalidraw/tests/helpers/ui";
+import { API } from "@mathboard-ai/excalidraw/tests/helpers/api";
+import { Pointer, UI } from "@mathboard-ai/excalidraw/tests/helpers/ui";
 
 import {
   act,
@@ -14,11 +14,11 @@ import {
   GlobalTestState,
   queryByTestId,
   render,
-} from "@excalidraw/excalidraw/tests/test-utils";
+} from "@mathboard-ai/excalidraw/tests/test-utils";
 
-import "@excalidraw/utils/test-utils";
+import "@mathboard-ai/utils/test-utils";
 
-import type { LocalPoint } from "@excalidraw/math";
+import type { LocalPoint } from "@mathboard-ai/math";
 
 import { bindLinearElement } from "../src/binding";
 

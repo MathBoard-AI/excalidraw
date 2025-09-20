@@ -16,7 +16,7 @@ import {
   vectorSubtract,
   vectorDot,
   vectorNormalize,
-} from "@excalidraw/math";
+} from "@mathboard-ai/math";
 
 import {
   COLOR_PALETTE,
@@ -103,7 +103,7 @@ import {
   MQ_MAX_MOBILE,
   MQ_MIN_TABLET,
   MQ_MAX_TABLET,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
 import {
   getObservedAppState,
@@ -238,9 +238,9 @@ import {
   StoreDelta,
   type ApplyToOptions,
   positionElementsOnGrid,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import type { LocalPoint, Radians } from "@excalidraw/math";
+import type { LocalPoint, Radians } from "@mathboard-ai/math";
 
 import type {
   ExcalidrawElement,
@@ -265,9 +265,9 @@ import type {
   ExcalidrawArrowElement,
   ExcalidrawElbowArrowElement,
   SceneElementsMap,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
-import type { Mutable, ValueOf } from "@excalidraw/common/utility-types";
+import type { Mutable, ValueOf } from "@mathboard-ai/common/utility-types";
 
 import {
   actionAddToLibrary,

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { focusNearestParent, KEYS } from "@excalidraw/common";
+import { focusNearestParent, KEYS } from "@mathboard-ai/common";
 
 import { useExcalidrawContainer } from "./App";
 

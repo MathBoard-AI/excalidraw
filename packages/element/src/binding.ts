@@ -6,7 +6,7 @@ import {
   invariant,
   isDevEnv,
   isTestEnv,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
 import {
   lineSegment,
@@ -24,13 +24,13 @@ import {
   pointsEqual,
   lineSegmentIntersectionPoints,
   PRECISION,
-} from "@excalidraw/math";
+} from "@mathboard-ai/math";
 
-import type { LocalPoint, Radians } from "@excalidraw/math";
+import type { LocalPoint, Radians } from "@mathboard-ai/math";
 
-import type { AppState } from "@excalidraw/excalidraw/types";
+import type { AppState } from "@mathboard-ai/excalidraw/types";
 
-import type { MapEntry, Mutable } from "@excalidraw/common/utility-types";
+import type { MapEntry, Mutable } from "@mathboard-ai/common/utility-types";
 
 import {
   doBoundsIntersect,

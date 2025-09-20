@@ -11,12 +11,12 @@ import {
   LIBRARY_DISABLED_TYPES,
   randomId,
   isShallowEqual,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
 import type {
   ExcalidrawElement,
   NonDeletedExcalidrawElement,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
 import { trackEvent } from "../analytics";
 import { useUIAppState } from "../context/ui-appState";

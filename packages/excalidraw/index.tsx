@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-import { DEFAULT_UI_OPTIONS, isShallowEqual } from "@excalidraw/common";
+import { DEFAULT_UI_OPTIONS, isShallowEqual } from "@mathboard-ai/common";
 
 import App from "./components/App";
 import { InitializeApp } from "./components/InitializeApp";
@@ -220,10 +220,10 @@ export {
   hashElementsVersion,
   hashString,
   getNonDeletedElements,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-export { getTextFromElements } from "@excalidraw/element";
-export { isInvisiblySmallElement } from "@excalidraw/element";
+export { getTextFromElements } from "@mathboard-ai/element";
+export { isInvisiblySmallElement } from "@mathboard-ai/element";
 
 export { defaultLang, useI18n, languages } from "./i18n";
 export {
@@ -241,7 +241,7 @@ export {
   exportToBlob,
   exportToSvg,
   exportToClipboard,
-} from "@excalidraw/utils/export";
+} from "@mathboard-ai/utils/export";
 
 export { serializeAsJSON, serializeLibraryAsJSON } from "./data/json";
 export {
@@ -249,9 +249,9 @@ export {
   loadSceneOrLibraryFromBlob,
   loadLibraryFromBlob,
 } from "./data/blob";
-export { getFreeDrawSvgPath } from "@excalidraw/element";
+export { getFreeDrawSvgPath } from "@mathboard-ai/element";
 export { mergeLibraryItems, getLibraryItemsHash } from "./data/library";
-export { isLinearElement } from "@excalidraw/element";
+export { isLinearElement } from "@mathboard-ai/element";
 
 export {
   FONT_FAMILY,
@@ -261,22 +261,22 @@ export {
   DEFAULT_LASER_COLOR,
   UserIdleState,
   normalizeLink,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
 export {
   mutateElement,
   newElementWith,
   bumpVersion,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-export { CaptureUpdateAction } from "@excalidraw/element";
+export { CaptureUpdateAction } from "@mathboard-ai/element";
 
 export { parseLibraryTokensFromUrl, useHandleLibrary } from "./data/library";
 
 export {
   sceneCoordsToViewportCoords,
   viewportCoordsToSceneCoords,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
 export { Sidebar } from "./components/Sidebar/Sidebar";
 export { Button } from "./components/Button";
@@ -294,16 +294,16 @@ export { TTDDialogTrigger } from "./components/TTDDialog/TTDDialogTrigger";
 
 export { zoomToFitBounds } from "./actions/actionCanvas";
 export { convertToExcalidrawElements } from "./data/transform";
-export { getCommonBounds, getVisibleSceneBounds } from "@excalidraw/element";
+export { getCommonBounds, getVisibleSceneBounds } from "@mathboard-ai/element";
 
 export {
   elementsOverlappingBBox,
   isElementInsideBBox,
   elementPartiallyOverlapsWithOrContainsBBox,
-} from "@excalidraw/utils/withinBounds";
+} from "@mathboard-ai/utils/withinBounds";
 
 export { DiagramToCodePlugin } from "./components/DiagramToCodePlugin/DiagramToCodePlugin";
 export { getDataURL } from "./data/blob";
-export { isElementLink } from "@excalidraw/element";
+export { isElementLink } from "@mathboard-ai/element";
 
-export { setCustomTextMetricsProvider } from "@excalidraw/element";
+export { setCustomTextMetricsProvider } from "@mathboard-ai/element";

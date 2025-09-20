@@ -1,14 +1,14 @@
-import { Emitter } from "@excalidraw/common";
+import { Emitter } from "@mathboard-ai/common";
 
 import {
   CaptureUpdateAction,
   StoreChange,
   StoreDelta,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import type { StoreSnapshot, Store } from "@excalidraw/element";
+import type { StoreSnapshot, Store } from "@mathboard-ai/element";
 
-import type { SceneElementsMap } from "@excalidraw/element/types";
+import type { SceneElementsMap } from "@mathboard-ai/element/types";
 
 import type { AppState } from "./types";
 

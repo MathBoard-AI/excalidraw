@@ -1,22 +1,22 @@
-import { getNonDeletedElements } from "@excalidraw/element";
-import { mutateElement } from "@excalidraw/element";
-import { newFrameElement } from "@excalidraw/element";
-import { isFrameLikeElement } from "@excalidraw/element";
+import { getNonDeletedElements } from "@mathboard-ai/element";
+import { mutateElement } from "@mathboard-ai/element";
+import { newFrameElement } from "@mathboard-ai/element";
+import { isFrameLikeElement } from "@mathboard-ai/element";
 import {
   addElementsToFrame,
   removeAllElementsFromFrame,
-} from "@excalidraw/element";
-import { getFrameChildren } from "@excalidraw/element";
+} from "@mathboard-ai/element";
+import { getFrameChildren } from "@mathboard-ai/element";
 
-import { KEYS, updateActiveTool } from "@excalidraw/common";
+import { KEYS, updateActiveTool } from "@mathboard-ai/common";
 
-import { getElementsInGroup } from "@excalidraw/element";
+import { getElementsInGroup } from "@mathboard-ai/element";
 
-import { getCommonBounds } from "@excalidraw/element";
+import { getCommonBounds } from "@mathboard-ai/element";
 
-import { CaptureUpdateAction } from "@excalidraw/element";
+import { CaptureUpdateAction } from "@mathboard-ai/element";
 
-import type { ExcalidrawElement } from "@excalidraw/element/types";
+import type { ExcalidrawElement } from "@mathboard-ai/element/types";
 
 import { setCursorForShape } from "../cursor";
 import { frameToolIcon } from "../components/icons";

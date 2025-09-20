@@ -1,28 +1,28 @@
 import React from "react";
 import { vi } from "vitest";
 
-import { KEYS, cloneJSON } from "@excalidraw/common";
+import { KEYS, cloneJSON } from "@mathboard-ai/common";
 
 import {
   Excalidraw,
   exportToCanvas,
   exportToSvg,
-} from "@excalidraw/excalidraw";
+} from "@mathboard-ai/excalidraw";
 import {
   actionFlipHorizontal,
   actionFlipVertical,
-} from "@excalidraw/excalidraw/actions";
+} from "@mathboard-ai/excalidraw/actions";
 
-import { API } from "@excalidraw/excalidraw/tests/helpers/api";
-import { Keyboard, Pointer, UI } from "@excalidraw/excalidraw/tests/helpers/ui";
+import { API } from "@mathboard-ai/excalidraw/tests/helpers/api";
+import { Keyboard, Pointer, UI } from "@mathboard-ai/excalidraw/tests/helpers/ui";
 import {
   act,
   GlobalTestState,
   render,
   unmountComponent,
-} from "@excalidraw/excalidraw/tests/test-utils";
+} from "@mathboard-ai/excalidraw/tests/test-utils";
 
-import type { NormalizedZoomValue } from "@excalidraw/excalidraw/types";
+import type { NormalizedZoomValue } from "@mathboard-ai/excalidraw/types";
 
 import { duplicateElement } from "../src/duplicate";
 

@@ -1,4 +1,4 @@
-import { pointFrom, type LocalPoint } from "@excalidraw/math";
+import { pointFrom, type LocalPoint } from "@mathboard-ai/math";
 
 import {
   DEFAULT_FONT_FAMILY,
@@ -14,9 +14,9 @@ import {
   isDevEnv,
   toBrandedType,
   getLineHeight,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
-import { bindLinearElement } from "@excalidraw/element";
+import { bindLinearElement } from "@mathboard-ai/element";
 import {
   newArrowElement,
   newElement,
@@ -25,21 +25,21 @@ import {
   newLinearElement,
   newMagicFrameElement,
   newTextElement,
-} from "@excalidraw/element";
-import { measureText, normalizeText } from "@excalidraw/element";
-import { isArrowElement } from "@excalidraw/element";
+} from "@mathboard-ai/element";
+import { measureText, normalizeText } from "@mathboard-ai/element";
+import { isArrowElement } from "@mathboard-ai/element";
 
-import { syncInvalidIndices } from "@excalidraw/element";
+import { syncInvalidIndices } from "@mathboard-ai/element";
 
-import { redrawTextBoundingBox } from "@excalidraw/element";
+import { redrawTextBoundingBox } from "@mathboard-ai/element";
 
-import { LinearElementEditor } from "@excalidraw/element";
+import { LinearElementEditor } from "@mathboard-ai/element";
 
-import { getCommonBounds } from "@excalidraw/element";
+import { getCommonBounds } from "@mathboard-ai/element";
 
-import { Scene } from "@excalidraw/element";
+import { Scene } from "@mathboard-ai/element";
 
-import type { ElementConstructorOpts } from "@excalidraw/element";
+import type { ElementConstructorOpts } from "@mathboard-ai/element";
 
 import type {
   ExcalidrawArrowElement,
@@ -59,9 +59,9 @@ import type {
   NonDeletedSceneElementsMap,
   TextAlign,
   VerticalAlign,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
-import type { MarkOptional } from "@excalidraw/common/utility-types";
+import type { MarkOptional } from "@mathboard-ai/common/utility-types";
 
 export type ValidLinearElement = {
   type: "arrow" | "line";

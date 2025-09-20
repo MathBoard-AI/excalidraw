@@ -1,8 +1,8 @@
-import { THEME, THEME_FILTER } from "@excalidraw/common";
+import { THEME, THEME_FILTER } from "@mathboard-ai/common";
 
-import { FIXED_BINDING_DISTANCE } from "@excalidraw/element";
-import { getDiamondPoints } from "@excalidraw/element";
-import { elementCenterPoint, getCornerRadius } from "@excalidraw/element";
+import { FIXED_BINDING_DISTANCE } from "@mathboard-ai/element";
+import { getDiamondPoints } from "@mathboard-ai/element";
+import { elementCenterPoint, getCornerRadius } from "@mathboard-ai/element";
 
 import {
   curve,
@@ -13,13 +13,13 @@ import {
   offsetPointsForQuadraticBezier,
   pointFrom,
   pointRotateRads,
-} from "@excalidraw/math";
+} from "@mathboard-ai/math";
 
 import type {
   ElementsMap,
   ExcalidrawDiamondElement,
   ExcalidrawRectanguloidElement,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
 import type { StaticCanvasRenderConfig } from "../scene/types";
 import type { AppState, StaticCanvasAppState } from "../types";

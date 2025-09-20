@@ -1,25 +1,25 @@
-import { KEYS, updateActiveTool } from "@excalidraw/common";
+import { KEYS, updateActiveTool } from "@mathboard-ai/common";
 
-import { getNonDeletedElements } from "@excalidraw/element";
-import { fixBindingsAfterDeletion } from "@excalidraw/element";
-import { LinearElementEditor } from "@excalidraw/element";
-import { newElementWith } from "@excalidraw/element";
-import { getContainerElement } from "@excalidraw/element";
+import { getNonDeletedElements } from "@mathboard-ai/element";
+import { fixBindingsAfterDeletion } from "@mathboard-ai/element";
+import { LinearElementEditor } from "@mathboard-ai/element";
+import { newElementWith } from "@mathboard-ai/element";
+import { getContainerElement } from "@mathboard-ai/element";
 import {
   isBoundToContainer,
   isElbowArrow,
   isFrameLikeElement,
-} from "@excalidraw/element";
-import { getFrameChildren } from "@excalidraw/element";
+} from "@mathboard-ai/element";
+import { getFrameChildren } from "@mathboard-ai/element";
 
 import {
   getElementsInGroup,
   selectGroupsForSelectedElements,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import { CaptureUpdateAction } from "@excalidraw/element";
+import { CaptureUpdateAction } from "@mathboard-ai/element";
 
-import type { ExcalidrawElement } from "@excalidraw/element/types";
+import type { ExcalidrawElement } from "@mathboard-ai/element/types";
 
 import { t } from "../i18n";
 import { getSelectedElements, isSomeElementSelected } from "../scene";

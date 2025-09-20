@@ -1,4 +1,4 @@
-import { isServerEnv, promiseTry } from "@excalidraw/common";
+import { isServerEnv, promiseTry } from "@mathboard-ai/common";
 
 import { WorkerInTheMainChunkError, WorkerUrlNotDefinedError } from "../errors";
 import { WorkerPool } from "../workers";

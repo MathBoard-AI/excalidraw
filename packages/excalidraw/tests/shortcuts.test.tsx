@@ -1,6 +1,6 @@
 import React from "react";
 
-import { KEYS } from "@excalidraw/common";
+import { KEYS } from "@mathboard-ai/common";
 
 import { Excalidraw } from "../index";
 

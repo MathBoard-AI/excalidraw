@@ -1,4 +1,4 @@
-import type { UnsubscribeCallback } from "@excalidraw/excalidraw/types";
+import type { UnsubscribeCallback } from "@mathboard-ai/excalidraw/types";
 
 type Subscriber<T extends any[]> = (...payload: T) => void;
 

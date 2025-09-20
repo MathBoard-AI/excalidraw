@@ -1,6 +1,6 @@
-import { CODES, KEYS } from "@excalidraw/common";
+import { CODES, KEYS } from "@mathboard-ai/common";
 
-import { CaptureUpdateAction } from "@excalidraw/element";
+import { CaptureUpdateAction } from "@mathboard-ai/element";
 
 import { magnetIcon } from "../components/icons";
 

@@ -1,4 +1,4 @@
-import { isFiniteNumber, pointFrom } from "@excalidraw/math";
+import { isFiniteNumber, pointFrom } from "@mathboard-ai/math";
 
 import {
   DEFAULT_FONT_FAMILY,
@@ -17,17 +17,17 @@ import {
   getSizeFromPoints,
   normalizeLink,
   getLineHeight,
-} from "@excalidraw/common";
-import { getNonDeletedElements, isValidPolygon } from "@excalidraw/element";
-import { normalizeFixedPoint } from "@excalidraw/element";
+} from "@mathboard-ai/common";
+import { getNonDeletedElements, isValidPolygon } from "@mathboard-ai/element";
+import { normalizeFixedPoint } from "@mathboard-ai/element";
 import {
   updateElbowArrowPoints,
   validateElbowPoints,
-} from "@excalidraw/element";
-import { LinearElementEditor } from "@excalidraw/element";
-import { bumpVersion } from "@excalidraw/element";
-import { getContainerElement } from "@excalidraw/element";
-import { detectLineHeight } from "@excalidraw/element";
+} from "@mathboard-ai/element";
+import { LinearElementEditor } from "@mathboard-ai/element";
+import { bumpVersion } from "@mathboard-ai/element";
+import { getContainerElement } from "@mathboard-ai/element";
+import { detectLineHeight } from "@mathboard-ai/element";
 import {
   isArrowBoundToElement,
   isArrowElement,
@@ -37,17 +37,17 @@ import {
   isLineElement,
   isTextElement,
   isUsingAdaptiveRadius,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import { syncInvalidIndices } from "@excalidraw/element";
+import { syncInvalidIndices } from "@mathboard-ai/element";
 
-import { refreshTextDimensions } from "@excalidraw/element";
+import { refreshTextDimensions } from "@mathboard-ai/element";
 
-import { getNormalizedDimensions } from "@excalidraw/element";
+import { getNormalizedDimensions } from "@mathboard-ai/element";
 
-import { isInvisiblySmallElement } from "@excalidraw/element";
+import { isInvisiblySmallElement } from "@mathboard-ai/element";
 
-import type { LocalPoint, Radians } from "@excalidraw/math";
+import type { LocalPoint, Radians } from "@mathboard-ai/math";
 
 import type {
   ExcalidrawArrowElement,
@@ -63,9 +63,9 @@ import type {
   OrderedExcalidrawElement,
   PointBinding,
   StrokeRoundness,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
-import type { MarkOptional, Mutable } from "@excalidraw/common/utility-types";
+import type { MarkOptional, Mutable } from "@mathboard-ai/common/utility-types";
 
 import { getDefaultAppState } from "../appState";
 

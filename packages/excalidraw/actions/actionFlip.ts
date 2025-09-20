@@ -1,21 +1,21 @@
-import { getNonDeletedElements } from "@excalidraw/element";
+import { getNonDeletedElements } from "@mathboard-ai/element";
 import {
   bindOrUnbindLinearElements,
   isBindingEnabled,
-} from "@excalidraw/element";
-import { getCommonBoundingBox } from "@excalidraw/element";
-import { newElementWith } from "@excalidraw/element";
-import { deepCopyElement } from "@excalidraw/element";
-import { resizeMultipleElements } from "@excalidraw/element";
+} from "@mathboard-ai/element";
+import { getCommonBoundingBox } from "@mathboard-ai/element";
+import { newElementWith } from "@mathboard-ai/element";
+import { deepCopyElement } from "@mathboard-ai/element";
+import { resizeMultipleElements } from "@mathboard-ai/element";
 import {
   isArrowElement,
   isElbowArrow,
   isLinearElement,
-} from "@excalidraw/element";
-import { updateFrameMembershipOfSelectedElements } from "@excalidraw/element";
-import { CODES, KEYS, arrayToMap } from "@excalidraw/common";
+} from "@mathboard-ai/element";
+import { updateFrameMembershipOfSelectedElements } from "@mathboard-ai/element";
+import { CODES, KEYS, arrayToMap } from "@mathboard-ai/common";
 
-import { CaptureUpdateAction } from "@excalidraw/element";
+import { CaptureUpdateAction } from "@mathboard-ai/element";
 
 import type {
   ExcalidrawArrowElement,
@@ -23,7 +23,7 @@ import type {
   ExcalidrawElement,
   NonDeleted,
   NonDeletedSceneElementsMap,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
 import { getSelectedElements } from "../scene";
 

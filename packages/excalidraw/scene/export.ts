@@ -13,33 +13,33 @@ import {
   distance,
   getFontString,
   toBrandedType,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
-import { getCommonBounds, getElementAbsoluteCoords } from "@excalidraw/element";
+import { getCommonBounds, getElementAbsoluteCoords } from "@mathboard-ai/element";
 
 import {
   getInitializedImageElements,
   updateImageCache,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import { newElementWith } from "@excalidraw/element";
+import { newElementWith } from "@mathboard-ai/element";
 
-import { isFrameLikeElement } from "@excalidraw/element";
+import { isFrameLikeElement } from "@mathboard-ai/element";
 
 import {
   getElementsOverlappingFrame,
   getFrameLikeElements,
   getFrameLikeTitle,
   getRootElements,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import { syncInvalidIndices } from "@excalidraw/element";
+import { syncInvalidIndices } from "@mathboard-ai/element";
 
-import { type Mutable } from "@excalidraw/common/utility-types";
+import { type Mutable } from "@mathboard-ai/common/utility-types";
 
-import { newTextElement } from "@excalidraw/element";
+import { newTextElement } from "@mathboard-ai/element";
 
-import type { Bounds } from "@excalidraw/element";
+import type { Bounds } from "@mathboard-ai/element";
 
 import type {
   ExcalidrawElement,
@@ -47,7 +47,7 @@ import type {
   ExcalidrawTextElement,
   NonDeletedExcalidrawElement,
   NonDeletedSceneElementsMap,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
 import { getDefaultAppState } from "../appState";
 import { base64ToString, decode, encode, stringToBase64 } from "../data/encode";

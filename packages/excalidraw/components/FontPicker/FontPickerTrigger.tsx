@@ -1,6 +1,6 @@
 import * as Popover from "@radix-ui/react-popover";
 
-import type { FontFamilyValues } from "@excalidraw/element/types";
+import type { FontFamilyValues } from "@mathboard-ai/element/types";
 
 import { t } from "../../i18n";
 import { ButtonIcon } from "../ButtonIcon";

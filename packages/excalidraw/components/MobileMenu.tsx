@@ -1,8 +1,8 @@
 import React from "react";
 
-import { showSelectedShapeActions } from "@excalidraw/element";
+import { showSelectedShapeActions } from "@mathboard-ai/element";
 
-import type { NonDeletedExcalidrawElement } from "@excalidraw/element/types";
+import type { NonDeletedExcalidrawElement } from "@mathboard-ai/element/types";
 
 import { isHandToolActive } from "../appState";
 import { useTunnels } from "../context/tunnels";

@@ -1,14 +1,14 @@
-import { isElementInViewport } from "@excalidraw/element";
+import { isElementInViewport } from "@mathboard-ai/element";
 
-import { memoize, toBrandedType } from "@excalidraw/common";
+import { memoize, toBrandedType } from "@mathboard-ai/common";
 
 import type {
   ExcalidrawElement,
   NonDeletedElementsMap,
   NonDeletedExcalidrawElement,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
-import type { Scene } from "@excalidraw/element";
+import type { Scene } from "@mathboard-ai/element";
 
 import { renderInteractiveSceneThrottled } from "../renderer/interactiveScene";
 import { renderStaticSceneThrottled } from "../renderer/staticScene";

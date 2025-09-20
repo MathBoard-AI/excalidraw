@@ -2,17 +2,17 @@ import {
   DEFAULT_TRANSFORM_HANDLE_SPACING,
   isAndroid,
   isIOS,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
-import { pointFrom, pointRotateRads } from "@excalidraw/math";
+import { pointFrom, pointRotateRads } from "@mathboard-ai/math";
 
-import type { Radians } from "@excalidraw/math";
+import type { Radians } from "@mathboard-ai/math";
 
 import type {
   Device,
   InteractiveCanvasAppState,
   Zoom,
-} from "@excalidraw/excalidraw/types";
+} from "@mathboard-ai/excalidraw/types";
 
 import { getElementAbsoluteCoords } from "./bounds";
 import {

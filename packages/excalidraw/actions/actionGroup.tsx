@@ -1,8 +1,8 @@
-import { getNonDeletedElements } from "@excalidraw/element";
+import { getNonDeletedElements } from "@mathboard-ai/element";
 
-import { newElementWith } from "@excalidraw/element";
+import { newElementWith } from "@mathboard-ai/element";
 
-import { isBoundToContainer } from "@excalidraw/element";
+import { isBoundToContainer } from "@mathboard-ai/element";
 
 import {
   frameAndChildrenSelectedTogether,
@@ -12,9 +12,9 @@ import {
   groupByFrameLikes,
   removeElementsFromFrame,
   replaceAllElementsInFrame,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import { KEYS, randomId, arrayToMap, getShortcutKey } from "@excalidraw/common";
+import { KEYS, randomId, arrayToMap, getShortcutKey } from "@mathboard-ai/common";
 
 import {
   getSelectedGroupIds,
@@ -24,17 +24,17 @@ import {
   addToGroup,
   removeFromSelectedGroups,
   isElementInGroup,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import { syncMovedIndices } from "@excalidraw/element";
+import { syncMovedIndices } from "@mathboard-ai/element";
 
-import { CaptureUpdateAction } from "@excalidraw/element";
+import { CaptureUpdateAction } from "@mathboard-ai/element";
 
 import type {
   ExcalidrawElement,
   ExcalidrawTextElement,
   OrderedExcalidrawElement,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
 import { ToolButton } from "../components/ToolButton";
 import { UngroupIcon, GroupIcon } from "../components/icons";

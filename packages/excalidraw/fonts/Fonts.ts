@@ -4,10 +4,10 @@ import {
   CJK_HAND_DRAWN_FALLBACK_FONT,
   WINDOWS_EMOJI_FALLBACK_FONT,
   getFontFamilyFallbacks,
-} from "@excalidraw/common";
-import { getContainerElement } from "@excalidraw/element";
-import { charWidth } from "@excalidraw/element";
-import { containsCJK } from "@excalidraw/element";
+} from "@mathboard-ai/common";
+import { getContainerElement } from "@mathboard-ai/element";
+import { charWidth } from "@mathboard-ai/element";
+import { containsCJK } from "@mathboard-ai/element";
 
 import {
   FONT_METADATA,
@@ -15,20 +15,20 @@ import {
   getFontString,
   PromisePool,
   promiseTry,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
-import { ShapeCache } from "@excalidraw/element";
+import { ShapeCache } from "@mathboard-ai/element";
 
-import { isTextElement } from "@excalidraw/element";
+import { isTextElement } from "@mathboard-ai/element";
 
 import type {
   ExcalidrawElement,
   ExcalidrawTextElement,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
-import type { ValueOf } from "@excalidraw/common/utility-types";
+import type { ValueOf } from "@mathboard-ai/common/utility-types";
 
-import type { Scene } from "@excalidraw/element";
+import type { Scene } from "@mathboard-ai/element";
 
 import { CascadiaFontFaces } from "./Cascadia";
 import { ComicShannsFontFaces } from "./ComicShanns";

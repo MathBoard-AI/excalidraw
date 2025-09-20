@@ -6,11 +6,11 @@ import {
   COLOR_OUTLINE_CONTRAST_THRESHOLD,
   COLOR_PALETTE,
   isTransparent,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
-import type { ColorTuple, ColorPaletteCustom } from "@excalidraw/common";
+import type { ColorTuple, ColorPaletteCustom } from "@mathboard-ai/common";
 
-import type { ExcalidrawElement } from "@excalidraw/element/types";
+import type { ExcalidrawElement } from "@mathboard-ai/element/types";
 
 import { useAtom } from "../../editor-jotai";
 import { t } from "../../i18n";

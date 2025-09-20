@@ -1,11 +1,11 @@
-import { throttleRAF } from "@excalidraw/common";
+import { throttleRAF } from "@mathboard-ai/common";
 
 import {
   getTargetFrame,
   isInvisiblySmallElement,
   renderElement,
   shouldApplyFrameClip,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
 import { bootstrapCanvas, getNormalizedCanvasDimensions } from "./helpers";
 

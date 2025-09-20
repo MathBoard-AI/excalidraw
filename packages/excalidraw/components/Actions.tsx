@@ -7,12 +7,12 @@ import {
   KEYS,
   capitalizeString,
   isTransparent,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
 import {
   shouldAllowVerticalAlign,
   suppportsHorizontalAlign,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
 import {
   hasBoundTextElement,
@@ -21,16 +21,16 @@ import {
   isLinearElement,
   isTextElement,
   isArrowElement,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import { hasStrokeColor, toolIsArrow } from "@excalidraw/element";
+import { hasStrokeColor, toolIsArrow } from "@mathboard-ai/element";
 
 import type {
   ExcalidrawElement,
   ExcalidrawElementType,
   NonDeletedElementsMap,
   NonDeletedSceneElementsMap,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
 import { actionToggleZenMode } from "../actions";
 

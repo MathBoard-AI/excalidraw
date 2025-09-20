@@ -1,21 +1,21 @@
-import { pointFrom } from "@excalidraw/math";
+import { pointFrom } from "@mathboard-ai/math";
 
-import { Excalidraw } from "@excalidraw/excalidraw";
+import { Excalidraw } from "@mathboard-ai/excalidraw";
 import {
   KEYS,
   getSizeFromPoints,
   reseed,
   arrayToMap,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
-import { API } from "@excalidraw/excalidraw/tests/helpers/api";
-import { UI, Keyboard, Pointer } from "@excalidraw/excalidraw/tests/helpers/ui";
+import { API } from "@mathboard-ai/excalidraw/tests/helpers/api";
+import { UI, Keyboard, Pointer } from "@mathboard-ai/excalidraw/tests/helpers/ui";
 import {
   render,
   unmountComponent,
-} from "@excalidraw/excalidraw/tests/test-utils";
+} from "@mathboard-ai/excalidraw/tests/test-utils";
 
-import type { LocalPoint } from "@excalidraw/math";
+import type { LocalPoint } from "@mathboard-ai/math";
 
 import { isLinearElement } from "../src/typeChecks";
 import { resizeSingleElement } from "../src/resizeElements";

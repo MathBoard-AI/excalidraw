@@ -1,4 +1,4 @@
-import { arrayToMap, easeOut, THEME } from "@excalidraw/common";
+import { arrayToMap, easeOut, THEME } from "@mathboard-ai/common";
 
 import {
   computeBoundTextPosition,
@@ -13,25 +13,25 @@ import {
   isFreeDrawElement,
   isLineElement,
   isPointInElement,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 import {
   lineSegment,
   lineSegmentsDistance,
   pointFrom,
   polygon,
   polygonIncludesPointNonZero,
-} from "@excalidraw/math";
+} from "@mathboard-ai/math";
 
-import { getElementsInGroup } from "@excalidraw/element";
+import { getElementsInGroup } from "@mathboard-ai/element";
 
-import { shouldTestInside } from "@excalidraw/element";
-import { hasBoundTextElement, isBoundToContainer } from "@excalidraw/element";
-import { getBoundTextElementId } from "@excalidraw/element";
+import { shouldTestInside } from "@mathboard-ai/element";
+import { hasBoundTextElement, isBoundToContainer } from "@mathboard-ai/element";
+import { getBoundTextElementId } from "@mathboard-ai/element";
 
-import type { Bounds } from "@excalidraw/element";
+import type { Bounds } from "@mathboard-ai/element";
 
-import type { GlobalPoint, LineSegment } from "@excalidraw/math/types";
-import type { ElementsMap, ExcalidrawElement } from "@excalidraw/element/types";
+import type { GlobalPoint, LineSegment } from "@mathboard-ai/math/types";
+import type { ElementsMap, ExcalidrawElement } from "@mathboard-ai/element/types";
 
 import { AnimatedTrail } from "../animated-trail";
 

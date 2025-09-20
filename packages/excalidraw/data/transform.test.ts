@@ -1,7 +1,7 @@
-import { pointFrom } from "@excalidraw/math";
+import { pointFrom } from "@mathboard-ai/math";
 import { vi } from "vitest";
 
-import type { ExcalidrawArrowElement } from "@excalidraw/element/types";
+import type { ExcalidrawArrowElement } from "@mathboard-ai/element/types";
 
 import { convertToExcalidrawElements } from "./transform";
 

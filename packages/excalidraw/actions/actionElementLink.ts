@@ -2,9 +2,9 @@ import {
   canCreateLinkFromElements,
   defaultGetElementLinkFromSelection,
   getLinkIdAndTypeFromSelection,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import { CaptureUpdateAction } from "@excalidraw/element";
+import { CaptureUpdateAction } from "@mathboard-ai/element";
 
 import { copyTextToSystemClipboard } from "../clipboard";
 import { copyIcon, elementLinkIcon } from "../components/icons";

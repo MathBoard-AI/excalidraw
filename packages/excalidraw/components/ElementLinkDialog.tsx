@@ -1,15 +1,15 @@
 import { useCallback, useEffect, useState } from "react";
 
-import { normalizeLink, KEYS } from "@excalidraw/common";
+import { normalizeLink, KEYS } from "@mathboard-ai/common";
 
 import {
   defaultGetElementLinkFromSelection,
   getLinkIdAndTypeFromSelection,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import type { ExcalidrawElement } from "@excalidraw/element/types";
+import type { ExcalidrawElement } from "@mathboard-ai/element/types";
 
-import type { Scene } from "@excalidraw/element";
+import type { Scene } from "@mathboard-ai/element";
 
 import { t } from "../i18n";
 import { getSelectedElements } from "../scene";

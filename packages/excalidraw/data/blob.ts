@@ -5,12 +5,12 @@ import {
   MIME_TYPES,
   bytesToHexString,
   isPromiseLike,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
-import { clearElementsForExport } from "@excalidraw/element";
+import { clearElementsForExport } from "@mathboard-ai/element";
 
-import type { ValueOf } from "@excalidraw/common/utility-types";
-import type { ExcalidrawElement, FileId } from "@excalidraw/element/types";
+import type { ValueOf } from "@mathboard-ai/common/utility-types";
+import type { ExcalidrawElement, FileId } from "@mathboard-ai/element/types";
 
 import { cleanAppStateForExport } from "../appState";
 

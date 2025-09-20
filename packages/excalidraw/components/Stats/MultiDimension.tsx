@@ -1,30 +1,30 @@
-import { pointFrom, type GlobalPoint } from "@excalidraw/math";
+import { pointFrom, type GlobalPoint } from "@mathboard-ai/math";
 import { useMemo } from "react";
 
-import { MIN_WIDTH_OR_HEIGHT } from "@excalidraw/common";
+import { MIN_WIDTH_OR_HEIGHT } from "@mathboard-ai/common";
 import {
   getElementsInResizingFrame,
   isFrameLikeElement,
   replaceAllElementsInFrame,
   updateBoundElements,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 import {
   rescalePointsInElement,
   resizeSingleElement,
-} from "@excalidraw/element";
-import { getBoundTextElement, handleBindTextResize } from "@excalidraw/element";
+} from "@mathboard-ai/element";
+import { getBoundTextElement, handleBindTextResize } from "@mathboard-ai/element";
 
-import { isTextElement } from "@excalidraw/element";
+import { isTextElement } from "@mathboard-ai/element";
 
-import { getCommonBounds } from "@excalidraw/utils";
+import { getCommonBounds } from "@mathboard-ai/utils";
 
 import type {
   ElementsMap,
   ExcalidrawElement,
   NonDeletedSceneElementsMap,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
-import type { Scene } from "@excalidraw/element";
+import type { Scene } from "@mathboard-ai/element";
 
 import DragInput from "./DragInput";
 import { getAtomicUnits, getStepSizedValue, isPropertyEditable } from "./utils";

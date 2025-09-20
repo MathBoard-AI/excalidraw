@@ -1,8 +1,8 @@
-import { API } from "@excalidraw/excalidraw/tests/helpers/api";
+import { API } from "@mathboard-ai/excalidraw/tests/helpers/api";
 
-import type { ObservedAppState } from "@excalidraw/excalidraw/types";
-import type { LinearElementEditor } from "@excalidraw/element";
-import type { SceneElementsMap } from "@excalidraw/element/types";
+import type { ObservedAppState } from "@mathboard-ai/excalidraw/types";
+import type { LinearElementEditor } from "@mathboard-ai/element";
+import type { SceneElementsMap } from "@mathboard-ai/element/types";
 
 import { AppStateDelta, Delta, ElementsDelta } from "../src/delta";
 

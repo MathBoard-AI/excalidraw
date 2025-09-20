@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
 
-import { THEME } from "@excalidraw/common";
+import { THEME } from "@mathboard-ai/common";
 
-import type { ValueOf } from "@excalidraw/common/utility-types";
+import type { ValueOf } from "@mathboard-ai/common/utility-types";
 
 import { useExcalidrawAppState } from "../App";
 

@@ -1,27 +1,27 @@
-import { FRAME_STYLE, throttleRAF } from "@excalidraw/common";
-import { isElementLink } from "@excalidraw/element";
-import { createPlaceholderEmbeddableLabel } from "@excalidraw/element";
-import { getBoundTextElement } from "@excalidraw/element";
+import { FRAME_STYLE, throttleRAF } from "@mathboard-ai/common";
+import { isElementLink } from "@mathboard-ai/element";
+import { createPlaceholderEmbeddableLabel } from "@mathboard-ai/element";
+import { getBoundTextElement } from "@mathboard-ai/element";
 import {
   isEmbeddableElement,
   isIframeLikeElement,
   isTextElement,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 import {
   elementOverlapsWithFrame,
   getTargetFrame,
   shouldApplyFrameClip,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import { renderElement } from "@excalidraw/element";
+import { renderElement } from "@mathboard-ai/element";
 
-import { getElementAbsoluteCoords } from "@excalidraw/element";
+import { getElementAbsoluteCoords } from "@mathboard-ai/element";
 
 import type {
   ElementsMap,
   ExcalidrawFrameLikeElement,
   NonDeletedExcalidrawElement,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
 import {
   EXTERNAL_LINK_IMG,

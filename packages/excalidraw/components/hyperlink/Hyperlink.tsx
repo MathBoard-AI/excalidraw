@@ -1,4 +1,4 @@
-import { pointFrom, type GlobalPoint } from "@excalidraw/math";
+import { pointFrom, type GlobalPoint } from "@mathboard-ai/math";
 import clsx from "clsx";
 import {
   useCallback,
@@ -8,15 +8,15 @@ import {
   useState,
 } from "react";
 
-import { EVENT, HYPERLINK_TOOLTIP_DELAY, KEYS } from "@excalidraw/common";
+import { EVENT, HYPERLINK_TOOLTIP_DELAY, KEYS } from "@mathboard-ai/common";
 
-import { getElementAbsoluteCoords } from "@excalidraw/element";
+import { getElementAbsoluteCoords } from "@mathboard-ai/element";
 
-import { hitElementBoundingBox } from "@excalidraw/element";
+import { hitElementBoundingBox } from "@mathboard-ai/element";
 
-import { isElementLink } from "@excalidraw/element";
+import { isElementLink } from "@mathboard-ai/element";
 
-import { getEmbedLink, embeddableURLValidator } from "@excalidraw/element";
+import { getEmbedLink, embeddableURLValidator } from "@mathboard-ai/element";
 
 import {
   sceneCoordsToViewportCoords,
@@ -24,17 +24,17 @@ import {
   wrapEvent,
   isLocalLink,
   normalizeLink,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
-import { isEmbeddableElement } from "@excalidraw/element";
+import { isEmbeddableElement } from "@mathboard-ai/element";
 
-import type { Scene } from "@excalidraw/element";
+import type { Scene } from "@mathboard-ai/element";
 
 import type {
   ElementsMap,
   ExcalidrawEmbeddableElement,
   NonDeletedExcalidrawElement,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
 import { trackEvent } from "../../analytics";
 import { getTooltipDiv, updateTooltipPosition } from "../../components/Tooltip";

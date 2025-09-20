@@ -3,13 +3,13 @@ import {
   pointOnLineSegment,
   pointRotateRads,
   type Radians,
-} from "@excalidraw/math";
+} from "@mathboard-ai/math";
 
-import { SIDE_RESIZING_THRESHOLD } from "@excalidraw/common";
+import { SIDE_RESIZING_THRESHOLD } from "@mathboard-ai/common";
 
-import type { GlobalPoint, LineSegment, LocalPoint } from "@excalidraw/math";
+import type { GlobalPoint, LineSegment, LocalPoint } from "@mathboard-ai/math";
 
-import type { AppState, Device, Zoom } from "@excalidraw/excalidraw/types";
+import type { AppState, Device, Zoom } from "@mathboard-ai/excalidraw/types";
 
 import { getElementAbsoluteCoords } from "./bounds";
 import {

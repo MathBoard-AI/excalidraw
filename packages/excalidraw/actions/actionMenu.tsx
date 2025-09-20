@@ -1,10 +1,10 @@
-import { KEYS } from "@excalidraw/common";
+import { KEYS } from "@mathboard-ai/common";
 
-import { getNonDeletedElements } from "@excalidraw/element";
+import { getNonDeletedElements } from "@mathboard-ai/element";
 
-import { showSelectedShapeActions } from "@excalidraw/element";
+import { showSelectedShapeActions } from "@mathboard-ai/element";
 
-import { CaptureUpdateAction } from "@excalidraw/element";
+import { CaptureUpdateAction } from "@mathboard-ai/element";
 
 import { ToolButton } from "../components/ToolButton";
 import { HamburgerMenuIcon, HelpIconThin, palette } from "../components/icons";

@@ -4,7 +4,7 @@ import {
   type GlobalPoint,
   type LocalPoint,
   type Radians,
-} from "@excalidraw/math";
+} from "@mathboard-ai/math";
 import oc from "open-color";
 
 import {
@@ -14,16 +14,16 @@ import {
   invariant,
   THEME,
   throttleRAF,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
-import { FIXED_BINDING_DISTANCE, maxBindingGap } from "@excalidraw/element";
-import { LinearElementEditor } from "@excalidraw/element";
+import { FIXED_BINDING_DISTANCE, maxBindingGap } from "@mathboard-ai/element";
+import { LinearElementEditor } from "@mathboard-ai/element";
 import {
   getOmitSidesForDevice,
   getTransformHandles,
   getTransformHandlesFromCoords,
   shouldShowBoundingBox,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 import {
   isElbowArrow,
   isFrameLikeElement,
@@ -31,28 +31,28 @@ import {
   isLinearElement,
   isLineElement,
   isTextElement,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import { renderSelectionElement } from "@excalidraw/element";
+import { renderSelectionElement } from "@mathboard-ai/element";
 
 import {
   getElementsInGroup,
   getSelectedGroupIds,
   isSelectedViaGroup,
   selectGroupsFromGivenElements,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import { getCommonBounds, getElementAbsoluteCoords } from "@excalidraw/element";
+import { getCommonBounds, getElementAbsoluteCoords } from "@mathboard-ai/element";
 
 import type {
   SuggestedBinding,
   SuggestedPointBinding,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
 import type {
   TransformHandles,
   TransformHandleType,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
 import type {
   ElementsMap,
@@ -64,7 +64,7 @@ import type {
   ExcalidrawTextElement,
   GroupId,
   NonDeleted,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
 import { renderSnaps } from "../renderer/renderSnaps";
 import { roundRect } from "../renderer/roundRect";

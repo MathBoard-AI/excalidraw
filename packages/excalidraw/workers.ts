@@ -1,4 +1,4 @@
-import { debounce } from "@excalidraw/common";
+import { debounce } from "@mathboard-ai/common";
 
 import { WorkerInTheMainChunkError, WorkerUrlNotDefinedError } from "./errors";
 

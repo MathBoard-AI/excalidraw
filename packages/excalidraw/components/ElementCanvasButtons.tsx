@@ -1,10 +1,10 @@
-import { sceneCoordsToViewportCoords } from "@excalidraw/common";
-import { getElementAbsoluteCoords } from "@excalidraw/element";
+import { sceneCoordsToViewportCoords } from "@mathboard-ai/common";
+import { getElementAbsoluteCoords } from "@mathboard-ai/element";
 
 import type {
   ElementsMap,
   NonDeletedExcalidrawElement,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
 import { useExcalidrawAppState } from "../components/App";
 

@@ -1,13 +1,13 @@
-import { KEYS, CODES, getShortcutKey, isDarwin } from "@excalidraw/common";
+import { KEYS, CODES, getShortcutKey, isDarwin } from "@mathboard-ai/common";
 
 import {
   moveOneLeft,
   moveOneRight,
   moveAllLeft,
   moveAllRight,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import { CaptureUpdateAction } from "@excalidraw/element";
+import { CaptureUpdateAction } from "@mathboard-ai/element";
 
 import {
   BringForwardIcon,

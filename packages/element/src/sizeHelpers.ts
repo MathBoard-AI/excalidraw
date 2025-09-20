@@ -1,17 +1,17 @@
 import {
   SHIFT_LOCKING_ANGLE,
   viewportCoordsToSceneCoords,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 import {
   normalizeRadians,
   radiansBetweenAngles,
   radiansDifference,
   type Radians,
-} from "@excalidraw/math";
+} from "@mathboard-ai/math";
 
-import { pointsEqual } from "@excalidraw/math";
+import { pointsEqual } from "@mathboard-ai/math";
 
-import type { AppState, Offsets, Zoom } from "@excalidraw/excalidraw/types";
+import type { AppState, Offsets, Zoom } from "@mathboard-ai/excalidraw/types";
 
 import { getCommonBounds, getElementBounds } from "./bounds";
 import {

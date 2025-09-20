@@ -4,12 +4,12 @@ import {
   CURSOR_TYPE,
   isShallowEqual,
   sceneCoordsToViewportCoords,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
 import type {
   NonDeletedExcalidrawElement,
   NonDeletedSceneElementsMap,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
 import { t } from "../../i18n";
 import { isRenderThrottlingEnabled } from "../../reactUtils";

@@ -1,4 +1,4 @@
-import { pointFrom } from "@excalidraw/math";
+import { pointFrom } from "@mathboard-ai/math";
 
 import {
   COLOR_PALETTE,
@@ -9,17 +9,17 @@ import {
   VERTICAL_ALIGN,
   randomId,
   isDevEnv,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
 import {
   newTextElement,
   newLinearElement,
   newElement,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import type { Radians } from "@excalidraw/math";
+import type { Radians } from "@mathboard-ai/math";
 
-import type { NonDeletedExcalidrawElement } from "@excalidraw/element/types";
+import type { NonDeletedExcalidrawElement } from "@mathboard-ai/element/types";
 
 export type ChartElements = readonly NonDeletedExcalidrawElement[];
 

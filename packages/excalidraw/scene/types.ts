@@ -1,12 +1,12 @@
-import type { UserIdleState } from "@excalidraw/common";
+import type { UserIdleState } from "@mathboard-ai/common";
 import type {
   ExcalidrawElement,
   NonDeletedElementsMap,
   NonDeletedExcalidrawElement,
   NonDeletedSceneElementsMap,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
-import type { MakeBrand } from "@excalidraw/common/utility-types";
+import type { MakeBrand } from "@mathboard-ai/common/utility-types";
 
 import type {
   AppClassProperties,

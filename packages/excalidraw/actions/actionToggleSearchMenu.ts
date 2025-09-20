@@ -3,9 +3,9 @@ import {
   CANVAS_SEARCH_TAB,
   CLASSES,
   DEFAULT_SIDEBAR,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
-import { CaptureUpdateAction } from "@excalidraw/element";
+import { CaptureUpdateAction } from "@mathboard-ai/element";
 
 import { searchIcon } from "../components/icons";
 

@@ -5,12 +5,12 @@ import {
   CLASSES,
   DEFAULT_SIDEBAR,
   KEYS,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
 import type {
   ExcalidrawFrameLikeElement,
   ExcalidrawTextElement,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
 import { Excalidraw } from "../index";
 

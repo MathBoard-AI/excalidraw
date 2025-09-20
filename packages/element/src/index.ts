@@ -1,4 +1,4 @@
-import { toIterable } from "@excalidraw/common";
+import { toIterable } from "@mathboard-ai/common";
 
 import { isInvisiblySmallElement } from "./sizeHelpers";
 import { isLinearElementType } from "./typeChecks";

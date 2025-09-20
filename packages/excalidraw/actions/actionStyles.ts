@@ -5,9 +5,9 @@ import {
   CODES,
   KEYS,
   getLineHeight,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
-import { newElementWith } from "@excalidraw/element";
+import { newElementWith } from "@mathboard-ai/element";
 
 import {
   hasBoundTextElement,
@@ -17,16 +17,16 @@ import {
   isArrowElement,
   isExcalidrawElement,
   isTextElement,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
 import {
   getBoundTextElement,
   redrawTextBoundingBox,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import { CaptureUpdateAction } from "@excalidraw/element";
+import { CaptureUpdateAction } from "@mathboard-ai/element";
 
-import type { ExcalidrawTextElement } from "@excalidraw/element/types";
+import type { ExcalidrawTextElement } from "@mathboard-ai/element/types";
 
 import { paintIcon } from "../components/icons";
 

@@ -8,15 +8,15 @@ import {
   getFontFamilyString,
   isTestEnv,
   MIME_TYPES,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
 import {
   originalContainerCache,
   updateOriginalContainerCache,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
-import { LinearElementEditor } from "@excalidraw/element";
-import { bumpVersion } from "@excalidraw/element";
+import { LinearElementEditor } from "@mathboard-ai/element";
+import { bumpVersion } from "@mathboard-ai/element";
 import {
   getBoundTextElementId,
   getContainerElement,
@@ -27,22 +27,22 @@ import {
   computeContainerDimensionForBoundText,
   computeBoundTextPosition,
   getBoundTextElement,
-} from "@excalidraw/element";
-import { getTextWidth } from "@excalidraw/element";
-import { normalizeText } from "@excalidraw/element";
-import { wrapText } from "@excalidraw/element";
+} from "@mathboard-ai/element";
+import { getTextWidth } from "@mathboard-ai/element";
+import { normalizeText } from "@mathboard-ai/element";
+import { wrapText } from "@mathboard-ai/element";
 import {
   isArrowElement,
   isBoundToContainer,
   isTextElement,
-} from "@excalidraw/element";
+} from "@mathboard-ai/element";
 
 import type {
   ExcalidrawElement,
   ExcalidrawLinearElement,
   ExcalidrawTextElementWithContainer,
   ExcalidrawTextElement,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
 import { actionSaveToActiveFile } from "../actions";
 

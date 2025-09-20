@@ -1,13 +1,13 @@
-import { pointFrom, pointRotateRads } from "@excalidraw/math";
+import { pointFrom, pointRotateRads } from "@mathboard-ai/math";
 import { useMemo } from "react";
 
-import { isTextElement } from "@excalidraw/element";
+import { isTextElement } from "@mathboard-ai/element";
 
-import { getCommonBounds } from "@excalidraw/element";
+import { getCommonBounds } from "@mathboard-ai/element";
 
-import type { ElementsMap, ExcalidrawElement } from "@excalidraw/element/types";
+import type { ElementsMap, ExcalidrawElement } from "@mathboard-ai/element/types";
 
-import type { Scene } from "@excalidraw/element";
+import type { Scene } from "@mathboard-ai/element";
 
 import StatsDragInput from "./DragInput";
 import {

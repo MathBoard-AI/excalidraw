@@ -1,28 +1,28 @@
-import { pointFrom } from "@excalidraw/math";
+import { pointFrom } from "@mathboard-ai/math";
 
 import {
   FONT_FAMILY,
   ORIG_ID,
   ROUNDNESS,
   isPrimitive,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
-import { Excalidraw, mutateElement } from "@excalidraw/excalidraw";
+import { Excalidraw, mutateElement } from "@mathboard-ai/excalidraw";
 
-import { actionDuplicateSelection } from "@excalidraw/excalidraw/actions";
+import { actionDuplicateSelection } from "@mathboard-ai/excalidraw/actions";
 
-import { API } from "@excalidraw/excalidraw/tests/helpers/api";
+import { API } from "@mathboard-ai/excalidraw/tests/helpers/api";
 
-import { UI, Keyboard, Pointer } from "@excalidraw/excalidraw/tests/helpers/ui";
+import { UI, Keyboard, Pointer } from "@mathboard-ai/excalidraw/tests/helpers/ui";
 
 import {
   act,
   assertElements,
   getCloneByOrigId,
   render,
-} from "@excalidraw/excalidraw/tests/test-utils";
+} from "@mathboard-ai/excalidraw/tests/test-utils";
 
-import type { LocalPoint } from "@excalidraw/math";
+import type { LocalPoint } from "@mathboard-ai/math";
 
 import { duplicateElement, duplicateElements } from "../src/duplicate";
 

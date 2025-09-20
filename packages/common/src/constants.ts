@@ -1,8 +1,8 @@
 import type {
   ExcalidrawElement,
   FontFamilyValues,
-} from "@excalidraw/element/types";
-import type { AppProps, AppState } from "@excalidraw/excalidraw/types";
+} from "@mathboard-ai/element/types";
+import type { AppProps, AppState } from "@mathboard-ai/excalidraw/types";
 
 import { COLOR_PALETTE } from "./colors";
 

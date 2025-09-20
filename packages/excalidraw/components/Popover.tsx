@@ -1,7 +1,7 @@
 import React, { useLayoutEffect, useRef, useEffect } from "react";
 import { unstable_batchedUpdates } from "react-dom";
 
-import { KEYS, queryFocusableElements } from "@excalidraw/common";
+import { KEYS, queryFocusableElements } from "@mathboard-ai/common";
 
 import "./Popover.scss";
 

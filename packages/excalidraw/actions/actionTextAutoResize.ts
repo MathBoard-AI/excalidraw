@@ -1,11 +1,11 @@
-import { getFontString } from "@excalidraw/common";
+import { getFontString } from "@mathboard-ai/common";
 
-import { newElementWith } from "@excalidraw/element";
-import { measureText } from "@excalidraw/element";
+import { newElementWith } from "@mathboard-ai/element";
+import { measureText } from "@mathboard-ai/element";
 
-import { isTextElement } from "@excalidraw/element";
+import { isTextElement } from "@mathboard-ai/element";
 
-import { CaptureUpdateAction } from "@excalidraw/element";
+import { CaptureUpdateAction } from "@mathboard-ai/element";
 
 import { getSelectedElements } from "../scene";
 

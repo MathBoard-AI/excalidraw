@@ -7,11 +7,11 @@ import {
   findLastIndex,
   getUpdatedTimestamp,
   isTestEnv,
-} from "@excalidraw/common";
+} from "@mathboard-ai/common";
 
-import type { Mutable } from "@excalidraw/common/utility-types";
+import type { Mutable } from "@mathboard-ai/common/utility-types";
 
-import type { AppState } from "@excalidraw/excalidraw/types";
+import type { AppState } from "@mathboard-ai/excalidraw/types";
 
 import {
   getElementsInGroup,

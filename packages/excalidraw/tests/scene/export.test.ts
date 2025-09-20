@@ -1,12 +1,12 @@
-import { exportToCanvas, exportToSvg } from "@excalidraw/utils";
+import { exportToCanvas, exportToSvg } from "@mathboard-ai/utils";
 
-import { FONT_FAMILY, FRAME_STYLE } from "@excalidraw/common";
+import { FONT_FAMILY, FRAME_STYLE } from "@mathboard-ai/common";
 
 import type {
   ExcalidrawTextElement,
   FractionalIndex,
   NonDeletedExcalidrawElement,
-} from "@excalidraw/element/types";
+} from "@mathboard-ai/element/types";
 
 import { prepareElementsForExport } from "../../data";
 import * as exportUtils from "../../scene/export";
