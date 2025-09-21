@@ -5,6 +5,8 @@ We will roll our own packages under the `@mathboard-ai/*` namespace to support c
 
 ⚠️ **Important Note:** Always bump versions across **all related packages** (`@mathboard-ai/common`, `@mathboard-ai/element`, `@mathboard-ai/math`, and `@mathboard-ai/excalidraw`) even if you only change one. Keeping them in sync avoids dependency mismatches.
 
+⚠️ **Reminder:** Scan for MATHBOARD-TODO: tags. Close the loop by fixing the problem or filing/assigning an action item.
+
 ---
 
 ## 🚀 Development & Packaging

@@ -1,6 +1,6 @@
 {
   "name": "@mathboard-ai/common",
-  "version": "0.18.0-mathboard0.0.11",
+  "version": "0.18.0-mathboard0.0.12",
   "type": "module",
   "types": "./dist/types/common/src/index.d.ts",
   "main": "./dist/prod/index.js",
